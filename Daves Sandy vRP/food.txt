@@ -1,0 +1,39 @@
+Here is the food list. if you use the stock one just copy paste over it.
+If not, copy my additions in. otherwise some transformers might not work.
+
+-- DRINKS --
+
+items["water"] = {"Water","", gen("drink",0,-25),0.5}
+items["milk"] = {"Milk","", gen("drink",0,-5),0.5}
+items["coffee"] = {"Coffee","", gen("drink",0,-10),0.2}
+items["tea"] = {"Tea","", gen("drink",0,-15),0.2}
+items["icetea"] = {"Ice-Tea","", gen("drink",0,-20), 0.5}
+items["orangejuice"] = {"Orange Juice","", gen("drink",0,-25),0.5}
+items["appjuice"] = {"Apple Juice","", gen("drink",0,-25),0.5}
+items["grapejuice"] = {"Grape Juice","", gen("drink",0,-25),0.5}
+items["cocacola"] = {"Coca Cola","", gen("drink",0,-35),0.3}
+items["redbull"] = {"Red Bull","", gen("drink",0,-40),0.3}
+items["lemonade"] = {"Lemonade","", gen("drink",0,-45),0.3}
+items["vodka"] = {"Vodka","", gen("drink",15,-65),0.5}
+
+--FOOD
+
+-- create Breed item
+items["bann"] = {"Bannana","", gen("eat",-10,0),0.5}
+items["orange"] = {"Orange","", gen("eat",-10,0),0.5}
+items["peach"] = {"Peach","", gen("eat",-10,0),0.5}
+items["apple"] = {"Apple","", gen("eat",-10,0),0.5}
+items["watermelon"] = {"Watermelon","", gen("eat",-10,0),0.5}
+items["bread"] = {"Bread","", gen("eat",-10,0),0.5}
+items["donut"] = {"Donut","", gen("eat",-15,0),0.2}
+items["tacos"] = {"Tacos","", gen("eat",-20,0),0.2}
+items["sandwich"] = {"Sandwich","A tasty snack.", gen("eat",-25,0),0.5}
+items["kebab"] = {"Kebab","", gen("eat",-45,0),0.85}
+items["pdonut"] = {"Premium Donut","", gen("eat",-25,0),0.5}
+items["catfish"] = {"Catfish","", gen("eat",10,15),0.3}
+items["bass"] = {"Bass","", gen("eat",10,15),0.3}
+items["Pizza"] = {"Pizza","", gen("eat",-45,0),0.85}
+items["cut_chx"] = {"Cut Chicken","Use this to roll Burritos", gen("eat",-5,0),0.25}
+items["burrito"] = {"Burrito","A Fresh Chipotle Burrito", gen("eat",-45,0),0.55}
+items["bbowl"] = {"Burrito Bowl","A Fully Loaded Burrito Bowl", gen("eat",-65,0),0.85}
+items["chips"] = {"Chips","Some Nice Crispy Chips", gen("eat",-15,0),0.35}

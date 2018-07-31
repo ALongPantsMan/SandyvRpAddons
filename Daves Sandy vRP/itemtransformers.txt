@@ -1,0 +1,2416 @@
+  {
+    name="Sandy Sheetz Currency Generator", -- menu name
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=125,b=255, -- color
+    max_units=1000,
+    units_per_minute=10,
+    x=1126.499633789,y=-3197.0380859375,z=-39.665729522706, -- pos
+    radius=5, height=1.5, -- area
+	recipes = {
+		["Printing Money"] = { -- action name
+			description="Print Some Crisp DollaDollaBills", -- action description
+			in_money=0, -- money taken per unit
+			out_money=450, -- money earned per unit 
+			reagents={}, -- items taken per unit
+			products={ -- items given per unit
+				["cfmoney"] = 1
+			}
+		}
+	}
+  },
+  {
+    name="Bill and Dave's Weed Farm", -- menu name
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=125,b=255, -- color
+    max_units=1000,
+    units_per_minute=10,
+    x=1057.8674316406,y=-3197.1147460938,z=-39.128108978272, -- pos
+    radius=5, height=1.5, -- area
+	recipes = {
+		["Harvesting Weed"] = { -- action name
+			description="Welcome to Bill and Dave's  Grow OP! Feel free to help trim some buds! Well pay you in cash and tree!", -- action description
+			in_money=0, -- money taken per unit
+			out_money=50, -- money earned per unit 
+			reagents={}, -- items taken per unit
+			products={ -- items given per unit
+				["Fweed"] = 1
+			},
+		}
+	}
+  },
+  {
+    name="Harvest Rye Fungus", -- menu name
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=125,b=255, -- color
+    max_units=1000,
+    units_per_minute=10,
+    x=2555.111328125,y=4142.6171875,z=38.494895935058, -- pos
+    radius=5, height=1.5, -- area
+	recipes = {
+		["Harvesting"] = { -- action name
+			description="Harvest this to use in the Synthesization of LSD", -- action description
+			in_money=0, -- money taken per unit
+			out_money=0, -- money earned per unit 
+			reagents={}, -- items taken per unit
+			products={ -- items given per unit
+				["ryef"] = 1
+			},
+		}
+	}
+  },
+  {
+    name="Harvest Rye Fungus.", -- menu name
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=125,b=255, -- color
+    max_units=1000,
+    units_per_minute=10,
+    x=1901.0013427734,y=3643.1496582032,z=34.090320587158, -- pos
+    radius=5, height=1.5, -- area
+	recipes = {
+		["Harvesting"] = { -- action name
+			description="Harvest this to use in the Synthesization of LSD", -- action description
+			in_money=0, -- money taken per unit
+			out_money=0, -- money earned per unit 
+			reagents={}, -- items taken per unit
+			products={ -- items given per unit
+				["ryef"] = 1
+			},
+		}
+	}
+  },
+  {
+    name="Tyler", -- menu name
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=125,b=255, -- color
+    max_units=50,
+    units_per_minute=5,
+    x=1859.4025878906,y=3852.3959960938,z=33.028652191162, -- pos
+    radius=5, height=1.5, -- area
+	recipes = {
+    ["Selling Tyler Sid"] = {
+    description="Hey thanks for bringing by these tabs.....HOLY SHIT DO YOU SEE THAT ELEPHANT?!? *He Grabs the tabs, throws the money at you and slams the door...you walk away...puzzled..", -- action description
+    in_money=0, -- money taken per unit
+    out_money=350, -- money earned per unit
+    reagents={
+      ["lsd"] = 1}, -- items taken per unit
+    products={ -- items given per unit
+    }
+	}
+	}
+  },
+  {
+    name="Rapheale", -- menu name
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=125,b=255, -- color
+    max_units=50,
+    units_per_minute=5,
+    x=1722.5209960938,y=3695.9375,z=34.442878723144, -- pos
+    radius=5, height=1.5, -- area
+	recipes = {
+    ["Selling Sid"] = {
+    description="Rapheal opens the door, he stares at you blankly with dinner plate pupils. He doesnt say anything, just reaches for the sid, you grab the money and he slowly walks backward into the house. Slowly shutting the door keeping eye contact until it locks shut...", -- action description
+    in_money=0, -- money taken per unit
+    out_money=450, -- money earned per unit
+    reagents={
+      ["lsd"] = 1}, -- items taken per unit
+    products={ -- items given per unit
+    }
+	}
+	}
+  },
+  {
+    name="Trevor", -- menu name
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=125,b=255, -- color
+    max_units=50,
+    units_per_minute=5,
+    x=1972.6060,y=3817.0440,z=33.4363, -- pos
+    radius=5, height=1.5, -- area
+	recipes = {
+    ["Selling Trevor weed."] = {
+    description="WOOO-WEEE that smells like some dankity dank! Here, take the money and get the hell of my porch before someone sees you!", -- action description
+    in_money=0, -- money taken per unit
+    out_money=250, -- money earned per unit
+    reagents={
+      ["Cweed"] = 1}, -- items taken per unit
+    products={ -- items given per unit
+    }
+	}
+	}
+  },
+  {
+    name="Synthesize LSD", -- near coca
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=125,b=255, -- color
+    max_units=50,
+    units_per_minute=5,
+    x=1010.9295043946,y=-3196.8081054688,z=-38.99312210083, -- pos
+    radius=5, height=1.5, -- area
+	recipes = {
+		["Synthesizing Harness"] = { -- action name
+			description="Craft LSD harness", -- action description
+			in_money=0, -- money taken per unit
+			out_money=0, -- money earned per unit 
+			reagents={ ["ryef"] = 1}, -- items taken per unit
+			products={ -- items given per unit
+      ["harness"] = 1
+      },
+      aptitudes={ -- "group.aptitude", give 1 exp per unit
+      ["science.chemicals"] = 3
+    }
+		}
+	}
+  },
+  {
+    name="Grapeseed Grapefield", -- near coca
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=125,b=255, -- color
+    max_units=50,
+    units_per_minute=5,
+    x=1832.612915039,y=4993.2963867188,z=53.3053855896, -- pos
+    radius=5, height=1.5, -- area
+	recipes = {
+		["Gathering Grapes"] = { -- action name
+			description="Gather some Grapes.", -- action description
+			in_money=0, -- money taken per unit
+			out_money=0, -- money earned per unit 
+			reagents={}, -- items taken per unit
+			products={ -- items given per unit
+				["grapes"] = 1
+			},
+		}
+	}
+  },
+  {
+    name="Grapeseed Grapefield", -- below coca 1
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=125,b=255, -- color
+    max_units=50,
+    units_per_minute=5,
+    x=1999.0938720704,y=4820.630859375,z=42.907543182374, -- pos
+    radius=5, height=1.5, -- area
+	recipes = {
+		["Gathering Grapes"] = { -- action name
+			description="Gather some Grapes.", -- action description
+			in_money=0, -- money taken per unit
+			out_money=0, -- money earned per unit 
+			reagents={}, -- items taken per unit
+			products={ -- items given per unit
+				["grapes"] = 1
+			},
+		}
+	}
+  },
+  {
+    name="Grapeseed Grapefield", -- below coca 2
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=125,b=255, -- color
+    max_units=50,
+    units_per_minute=5,
+    x=1993.9053955078,y=4815.8344726562,z=42.90699005127, -- pos
+    radius=5, height=1.5, -- area
+	recipes = {
+		["Gathering Grapes"] = { -- action name
+			description="Gather some Grapes.", -- action description
+			in_money=0, -- money taken per unit
+			out_money=0, -- money earned per unit 
+			reagents={}, -- items taken per unit
+			products={ -- items given per unit
+				["grapes"] = 1
+			}
+		}
+	}
+  },
+  {
+    name="Grapeseed Grapefield", -- below coca 3
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=125,b=255, -- color
+    max_units=50,
+    units_per_minute=5,
+    x=1984.4794921875,y=4808.3032226562,z=42.803382873536, -- pos
+    radius=5, height=1.5, -- area
+	recipes = {
+		["Gathering Grapes"] = { -- action name
+			description="Gather some Grapes.", -- action description
+			in_money=0, -- money taken per unit
+			out_money=0, -- money earned per unit 
+			reagents={}, -- items taken per unit
+			products={ -- items given per unit
+				["grapes"] = 1
+			}
+		}
+	}
+  },
+  {
+    name="Sandy Shores Mashery", -- menu name
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=0,b=255, -- color
+    max_units=100,
+    units_per_minute=5,
+    x=2447.6918945312,y=4054.9616699218,z=38.064712524414, -- pos
+    radius=5, height=1.5, -- area
+    recipes = {
+	["Mashing Grapes."] = {
+    description="Mash up some grapes to make a slurry you can ferment.", -- action description
+    in_money=0, -- money taken per unit
+    out_money=0, -- money earned per unit
+    reagents={
+      ["grapes"] = 2
+	},
+    products={ -- items given per unit
+      ["slurry"] = 1
+    }
+	}
+	}
+  },
+  {
+    name="Senora Winery", -- menu name
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=0,b=255, -- color
+    max_units=100,
+    units_per_minute=10,
+    x=2891.4287109375,y=4391.7348632812,z=49.9, -- pos
+    radius=5, height=1.5, -- area
+    recipes = {
+	["Fermenting wine."] = {
+    description="Fermeant that chuky slurry into the smoothest wine in town.", -- action description
+    in_money=0, -- money taken per unit
+    out_money=0, -- money earned per unit
+    reagents={
+      ["slurry"] = 1
+	},
+    products={ -- items given per unit
+      ["wine"] = 1
+    }
+	}
+	}
+  },
+  {
+    name="Sandy Shores Convenience Delivery", -- menu name
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=0,b=255, -- color
+    max_units=100,
+    units_per_minute=10,
+    x=1411.5153808594,y=3612.2834472656,z=34.92008972168, -- pos
+    radius=3, height=1.5, -- area
+	recipes = {
+    ["Deliver Wine"] = {
+    description="Drop off your fine wine here!", -- action description
+    in_money=0, -- money taken per unit
+    out_money=500, -- money earned per unit
+    reagents={
+      ["wine"] = 1}, -- items taken per unit
+    products={ -- items given per unit
+    }
+	}
+	}
+  },
+  {
+    name="Paleto Liqour Store", -- menu name
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=0,b=255, -- color
+    max_units=100,
+    units_per_minute=10,
+    x=-155.4204711914,y=6327.1489257812,z=31.580827713012, -- pos
+    radius=3, height=1.5, -- area
+	recipes = {
+    ["Deliver Wine"] = {
+    description="Drop off your fine wine here!", -- action description
+    in_money=0, -- money taken per unit
+    out_money=800, -- money earned per unit
+    reagents={
+      ["wine"] = 1}, -- items taken per unit
+    products={ -- items given per unit
+    }
+	}
+	}
+  },
+  {
+    name="Grapeseed Farmers' Market", -- menu name
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=0,b=255, -- color
+    max_units=100,
+    units_per_minute=10,
+    x=1792.2985839844,y=4593.1279296875,z=37.68291091919, -- pos
+    radius=3, height=1.5, -- area
+	recipes = {
+    ["Deliver Grapes"] = {
+    description="Drop off your fresh picked grapes here!", -- action description
+    in_money=0, -- money taken per unit
+    out_money=200, -- money earned per unit
+    reagents={
+      ["grapes"] = 1}, -- items taken per unit
+    products={ -- items given per unit
+    }
+	}
+	}
+  },
+  {
+    name="Meth Lab", -- menu name
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=0,b=255, -- color
+    max_units=100,
+    units_per_minute=10,
+    x=1390.90356445313,y=3604.98876953125,z=39.5187873840332, -- pos
+    radius=5, height=1.5, -- area
+    recipes = {
+	["Cooking meth."] = {
+    description="Cook up some crank! You can make meth by using 2 pills and 1 water bottle. You can sell this to people in SandyShores, or you can be a bit risky and drive up to grapeseed and get a little more cash!", -- action description
+    in_money=0, -- money taken per unit
+    out_money=0, -- money earned per unit
+    reagents={
+      ["water"] = 1,
+      ["pills"] = 2
+	},
+    products={ -- items given per unit
+      ["meth"] = 1
+    }
+	}
+	}
+  },
+  {
+    name="Meth Lab", -- menu name
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=0,b=255, -- color
+    max_units=100,
+    units_per_minute=10,
+    x=1003.8613891602,y=-3200.1921386718,z=-38.99312210083, -- pos
+    radius=2, height=1.5, -- area
+    recipes = {
+	["Cooking meth."] = {
+    description="Cook up some crank! You can make meth by using 2 pills and 1 water bottle. You can sell this to people in SandyShores, or you can be a bit risky and drive up to grapeseed and get a little more cash!", -- action description
+    in_money=0, -- money taken per unit
+    out_money=0, -- money earned per unit
+    reagents={
+      ["water"] = 1,
+      ["pills"] = 2
+	},
+    products={ -- items given per unit
+      ["meth"] = 1
+    }
+	}
+	}
+  },
+  {
+    name="Buddy Bilkinson", -- menu name
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=0,b=255, -- color
+    max_units=10,
+    units_per_minute=5,
+    x=917.44775390625,y=3657.01586914063,z=31, -- pos
+    radius=3, height=1.5, -- area
+	recipes = {
+    ["Tossing some crank Buddy's way"] = {
+    description="*Hey buddy!* I'm not your buddy, guy.. *uh ok* You slowly swap the cash for drugs, but not without wondering...how much fucking meth has this guy done?!", -- action description
+    in_money=0, -- money taken per unit
+    out_money=325, -- money earned per unit
+    reagents={
+      ["meth"] = 1}, -- items taken per unit
+    products={ -- items given per unit
+    }
+	}
+	}
+  },
+  {
+    name="SandyShores Quarry and Explosive Testing Facility", -- menu name
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=0,b=255, -- color
+    max_units=50,
+    units_per_minute=5,
+    x=2949.0947265625,y=2793.48974609375,z=38.6, -- pos
+    radius=30, height=3, -- area
+    recipes = {
+	["Mine some shit"] = {
+    description="Hey! Welcome to the SSQETF, you're free to mine what you want and blow shit up too! Just.. don't blow up the boss' car... You can process your minerals for a nominal fee at the processing facility on site. Or you can transport it to the SandyShores Airfield and export the raw materials.", -- action description
+    in_money=0, -- money taken per unit
+    out_money=0, -- money earned per unit
+    reagents={}, -- items taken per unit
+    products={
+	  ["rawminerals"] = 1
+	}
+	}
+	}
+  },
+  {
+    name="You Tool Warehouse", -- menu name
+    r=255,g=125,b=0, -- color
+    max_units=50,
+    units_per_minute=5,
+    x=2752.1423339844,y=3470.2758789062,z=55.7239112854,        
+    radius=4, height=1.0, -- area
+    recipes = {
+      ["Sell Steel"] = { -- action name
+       description="Sell Steel from the Quarry.", -- action description`
+        in_money=0, -- money taken per unit
+        out_money=350, -- money earned per unit
+        reagents={
+          ["steel"] = 1
+        }, -- items taken per unit
+        products={
+		}, -- items given per unit
+        aptitudes={} -- optional
+      },
+   ["Sell Copper"] = { -- action name
+   description="Sell Copper.", -- action description`
+    in_money=0, -- money taken per unit
+    out_money=275, -- money earned per unit
+    reagents={
+      ["copper"] = 1
+    }, -- items taken per unit
+    products={
+}, -- items given per unit
+    aptitudes={} -- optional
+  },
+    }
+  },
+    {
+    name="Tony Montana", --  youtool
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=0,b=255, -- color
+    max_units=50,
+    units_per_minute=5,
+    x=374.999053955078,y=3581.87915039063,z=33.2922668457031, -- pos
+    radius=4, height=3, -- area
+    recipes = {
+	["Sell Tony some Coke."] = {
+    description="Say hello, to my little friend...Benjamin Franklin", -- action description
+    in_money=0, -- money taken per unit
+    out_money=570, -- money earned per unit
+    reagents={
+      ["coke"] = 1}, -- items taken per unit
+    products={
+	}
+	}
+	}
+  },
+    {
+    name="Coca Farm", -- cocafarm
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=0,b=255, -- color
+    max_units=100,
+    units_per_minute=5,
+    x=1830.41247558594,y=5048.10693359375,z=58.45, -- pos
+    radius=4, height=3, -- area
+    recipes = {
+	["Harvesting Coca Plants."] = {
+    description="The first step into becoming a druglord, start you cocaine quest here!", -- action description
+    in_money=0, -- money taken per unit
+    out_money=0, -- money earned per unit
+    reagents={
+	  ["water"] = 1}, -- items taken per unit
+    products={ 
+	  ["cocaplant"] = 2
+	}
+	}
+	}
+  },
+    {
+    name="Coca Plant Processing", -- get leaves
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=0,b=255, -- color
+    max_units=100,
+    units_per_minute=5,
+    x=2016.47216796875,y=4987.2939453125,z=41.99, -- pos
+    radius=4, height=3, -- area
+    recipes = {
+	["Trim Coca Leaves."] = {
+    description="Combine these with a solvent to create cocapaste!", -- action description
+    in_money=25, -- money taken per unit
+    out_money=0, -- money earned per unit
+    reagents={
+	  ["cocaplant"] = 1}, -- items taken per unit
+    products={ 
+	  ["cocaleaf"] = 4
+	}
+	}
+	}
+  },
+    {
+    name="Coca Paste Production", -- get leaves
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=0,b=255, -- color
+    max_units=100,
+    units_per_minute=5,
+    x=1951.66394042969,y=4651.41357421875,z=40.4, -- pos
+    radius=4, height=3, -- area
+    recipes = {
+	["Make Coca Paste"] = {
+    description="Combine 4 leaves and 1 diesel to create cocapaste! You can then take the paste to be dried in to cocaine!", -- action description
+    in_money=0, -- money taken per unit
+    out_money=0, -- money earned per unit
+    reagents={
+	  ["cocaleaf"] = 4,
+	  ["diesel"] =1}, -- items taken per unit
+    products={ 
+	  ["cocapaste"] = 2
+	}
+	}
+	}
+  },
+    {
+    name="Coca Paste Drying", -- get coke
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=0,b=255, -- color
+    max_units=100,
+    units_per_minute=5,
+    x=1093.2293701172,y=-3197.0505371094,z=-38.993469238282, -- pos
+    radius=4, height=3, -- area
+    recipes = {
+	["Dry your paste"] = {
+    description="Turn your nasty paste into some of the finest San Andreas bam bam around. Don't get caught with it!", -- action description
+    in_money=0, -- money taken per unit
+    out_money=700, -- money earned per unit
+    reagents={
+	  ["cocapaste"] = 2}, -- items taken per unit
+    products={ 
+      ["coke"] = 1
+  },
+  aptitudes={ -- optional
+  ["laboratory.cocaine"] = 1.5, -- "group.aptitude", give 1 exp per unit
+  ["science.chemicals"] = 3
+}
+	}
+	}
+  },
+    {
+    name="Fishing", -- FishEast
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=0,b=255, -- color
+    max_units=100,
+    units_per_minute=5,
+    x=1919.61706542969,y=4274.18115234375,z=30.8, -- pos
+    radius=25, height=5, -- area
+    recipes = {
+	["Go Fishing"] = {
+    description="Catch some San Andreas Salmon, small mouth bass, or trout! Take them to be cleaned and packaged and then sell them at the fish market!", -- action description
+    in_money=0, -- money taken per unit
+    out_money=0, -- money earned per unit
+    reagents={
+	  ["bait"] = 1}, -- items taken per unit
+    products={ 
+	  ["fish"] = 1
+	}
+	}
+	}
+  },
+    {
+    name="Fishing", -- FishNorth
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=0,b=255, -- color
+    max_units=100,
+    units_per_minute=5,
+    x=973.925109863281,y=4240.552734375,z=29.9, -- pos
+    radius=25, height=6, -- area
+   recipes = {
+	["Go Fishing"] = {
+    description="Catch some San Andreas Salmon, small mouth bass, or trout! Take them to be cleaned and packaged and then sell them at the fish market!", -- action description
+    in_money=0, -- money taken per unit
+    out_money=0, -- money earned per unit
+    reagents={
+	  ["bait"] = 1}, -- items taken per unit
+    products={ 
+	  ["fish"] = 1
+	}
+	}
+	}
+  },
+    {
+    name="Fishing", -- FishWest
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=0,b=255, -- color
+    max_units=100,
+    units_per_minute=5,
+    x=133.917770385742,y=4101.33544921875,z=28.5, -- pos
+    radius=25, height=7, -- area
+   recipes = {
+	["Go Fishing"] = {
+    description="Catch some San Andreas Salmon, small mouth bass, or trout! Take them to be cleaned and packaged and then sell them at the fish market!", -- action description
+    in_money=0, -- money taken per unit
+    out_money=0, -- money earned per unit
+    reagents={
+	  ["bait"] = 1}, -- items taken per unit
+    products={ 
+	  ["fish"] = 1
+	}
+	}
+	}
+  },
+  --   {
+  --   name="Fish Cleaner", -- FishProcess
+  --   -- permission = "harvest.water_bottle", -- you can add a permission
+  --   r=0,g=0,b=255, -- color
+  --   max_units=100,
+  --   units_per_minute=5,
+  --   x=557.1025390625,y=2676.30395507813,z=41.9, -- pos
+  --   radius=5, height=7, -- area
+  --   recipes = {
+	-- ["Process your fish."] = {
+  --   description="Welcome to the Blaine County Fish Market! Got some fresh fish for us? Let us clean and pack it up for ya!", -- action description
+  --   in_money=25, -- money taken per unit
+  --   out_money=0, -- money earned per unit
+  --   reagents={
+	--   ["fish"] = 1}, -- items taken per unit
+  --   products={ 
+	--   ["packagedfish"] = 1
+	-- }
+	-- }
+	-- }
+  -- },
+    {
+    name="Dry your buds!", -- get CWeed
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=0,b=255, -- color
+    max_units=100,
+    units_per_minute=5,
+    x=1037.5244140625,y=-3205.357421875,z=-38.170234680176, -- pos
+    radius=4, height=3, -- area
+    recipes = {
+	["Dry your buds."] = {
+    description="Dry that sticky icky right here. End up with the best damn tree you've ever laid eyes on!", -- action description
+    in_money=15, -- money taken per unit
+    out_money=0, -- money earned per unit
+    reagents={
+	  ["Fweed"] = 1}, -- items taken per unit
+    products={ 
+	  ["Cweed"] = 1
+	}
+	}
+	}
+  },
+  {
+    name="Dry your buds!", -- get CWeed
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=0,b=255, -- color
+    max_units=100,
+    units_per_minute=5,
+    x=726.69677734375,y=4169.240234375,z=40.7091903686523, -- pos
+    radius=4, height=3, -- area
+    recipes = {
+	["Dry your buds."] = {
+    description="Dry your Fresh Weed Here!", -- action description
+    in_money=15, -- money taken per unit
+    out_money=0, -- money earned per unit
+    reagents={
+	  ["Fweed"] = 1}, -- items taken per unit
+    products={ 
+	  ["Cweed"] = 1
+	}
+	}
+	}
+  },
+    {
+    name="Rick Sanchez", --  weedbuy
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=0,b=255, -- color
+    max_units=50,
+    units_per_minute=5,
+    x=1652.5546875,y=4867.71142578125,z=42.0056381225586, -- pos
+    radius=4, height=3, -- area
+    recipes = {
+	["Sell Rick some weed."] = {
+    description="Hey you *buuuuurp* got that goog goo-*urp*-ood? I need some to help mellow out Morty's constant *burrp* anxiousness. Just remember, GRAAAAAAS Tastes bad!.", -- action description
+    in_money=0, -- money taken per unit
+    out_money=310, -- money earned per unit
+    reagents={
+      ["Cweed"] = 1}, -- items taken per unit
+    products={
+	}
+	}
+	}
+  },
+    {
+    name="John M.", --  weedbuy
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=255,b=0, -- color
+    max_units=50,
+    units_per_minute=5,
+    x=-27.5262718200684,y=6597.38427734375,z=31.8606796264648, -- pos
+    radius=4, height=3, -- area
+        recipes = {
+	["Sell John some weed."] = {
+    description="Howdy partn'r. Im looking for that good ol' San An Tumbleweed. Got any for me?", -- action description
+    in_money=0, -- money taken per unit
+    out_money=475, -- money earned per unit
+    reagents={
+      ["Cweed"] = 1}, -- items taken per unit
+    products={
+	}
+	}
+	}
+  },
+    {
+    name="Milton", --  weedbuy
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=255,b=0, -- color
+    max_units=50,
+    units_per_minute=5,
+    x=-1079.19702148438,y=4935.98779296875,z=229.22184753418, -- pos
+    radius=4, height=3, -- area
+        recipes = {
+	["Sell Milton weed."] = {
+    description="Awwwww mannnnnnn, thanks for brining this up here..*hit hit* awww thats the stuff. Alright, Im ready to fly! *before you can react the guy jumps off the watertower with a joint in his mouth. A few moments later hobbles back up to the top and says* Damn, maybe I gotta smoke more.", -- action description
+    in_money=0, -- money taken per unit
+    out_money=650, -- money earned per unit
+    reagents={
+      ["Cweed"] = 1}, -- items taken per unit
+    products={
+	}
+	}
+	}
+  }, --1532.4548339844,3723.6252441406,34.678604125976
+  {
+    name="Bobby", --  weedbuy
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=255,b=0, -- color
+    max_units=50,
+    units_per_minute=5,
+    x=1532.4548339844,y=3723.6252441406,z=34.678604125976, -- pos
+    radius=4, height=3, -- area
+        recipes = {
+	["Sell Bobby weed."] = {
+    description="Awwwww mannnnnnn, thanks for brining this over *hit hit* Sweeeeeeeeet dude, heres the dough, peace out!", -- action description
+    in_money=0, -- money taken per unit
+    out_money=550, -- money earned per unit
+    reagents={
+      ["Cweed"] = 1}, -- items taken per unit
+    products={
+	}
+	}
+	}
+  },
+    {
+    name="Joey C's Export Dock", --  exportmin
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=0,b=255, -- color
+    max_units=50,
+    units_per_minute=5,
+    x=(-1592.4775390625),y=5203.22412109375,z=4.31009244918823, -- pos
+    radius=4, height=3, -- area
+        recipes = {
+	["Sell Raw Minerals."] = {
+    description="Hey bud! Welcome to Joey C's Export Service! Thanks for driving out! Ill make sure our guys take care of you!", -- action description
+    in_money=0, -- money taken per unit
+    out_money=575, -- money earned per unit
+    reagents={
+      ["rawminerals"] = 1}, -- items taken per unit
+    products={
+	}
+	}
+	}
+  },
+    {
+    name="Bill E. Jeans", --  cokebuy
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=0,b=255, -- color
+    max_units=50,
+    units_per_minute=5,
+    x=32.2294082641602,y=6595.552734375,z=32.470436096191, -- pos
+    radius=3.5, height=3, -- area
+        recipes = {
+	["Sell Bill some Coke."] = {
+    description="Fucking A! Finally! Where have you been?!?! Gimmie gimmie gimmie!", -- action description
+    in_money=0, -- money taken per unit
+    out_money=400, -- money earned per unit
+    reagents={
+      ["coke"] = 1}, -- items taken per unit
+    products={
+	}
+	}
+	}
+  },
+    {
+    name="Igor", --  cokebuy
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=0,b=255, -- color
+    max_units=50,
+    units_per_minute=5,
+    x=-1075.55529785156,y=4898.3544921875,z=214.271423339844, -- pos
+    radius=3.5, height=3, -- area
+        recipes = {
+	["Sell Igor Coke."] = {
+    description="*You knock on the door, it slowly creeks open* Hey anyone here? *Next thing you know this guy rolls on the floor infront of you spouting something about Epsilon, tinfoil hats, and brain slugs. You ask for the money and he reaches down his pants and pulls out...what appears to be coins...money..gold...? Anyway, you pick it up witha tissue and get the hell outta there!*", -- action description
+    in_money=0, -- money taken per unit
+    out_money=750, -- money earned per unit
+    reagents={
+      ["cocke"] = 1}, -- items taken per unit
+    products={
+	}
+	}
+	}
+  },
+  --   {
+  --   name="Mini Mart (SellFish)", --  sellfishsandy
+  --   -- permission = "harvest.water_bottle", -- you can add a permission
+  --   r=0,g=0,b=255, -- color
+  --   max_units=50,
+  --   units_per_minute=5,
+  --   x=2659.1479492188,y=3262.3911132812,z=55.240516662598, -- pos
+  --   radius=5, height=3, -- area
+  --       recipes = {
+	-- ["Sell packaged fish."] = {
+  --   description="Hey thar! Oh sweet! A new shipment of crapfish, I mean, cat fish. Heres some money", -- action description
+  --   in_money=0, -- money taken per unit
+  --   out_money=300, -- money earned per unit
+  --   reagents={
+  --     ["packagedfish"] = 1}, -- items taken per unit
+  --   products={
+	-- }
+	-- }
+	-- }
+  -- },
+  --   {
+  --   name="Paleto ShopN'Save (SellFish)", --  sellfishpaleto
+  --   -- permission = "harvest.water_bottle", -- you can add a permission
+  --   r=0,g=0,b=255, -- color
+  --   max_units=50,
+  --   units_per_minute=5,
+  --   x=-56.4152412414551,y=6524.2001953125,z=31.4908466339111, -- pos
+  --   radius=5, height=3, -- area
+  --       recipes = {
+	-- ["Sell packaged fish."] = {
+  --   description="Dayyyyummmmmm look at dat bass", -- action description
+  --   in_money=0, -- money taken per unit
+  --   out_money=450, -- money earned per unit
+  --   reagents={
+  --     ["packagedfish"] = 1}, -- items taken per unit
+  --   products={
+	-- }
+	-- }
+	-- }
+  -- },
+    {
+    name="Mike Hawk", -- menu name
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=0,b=255, -- color
+    max_units=10,
+    units_per_minute=5,
+    x=-160.36637878418,y=6432.0419921875,z=31.915901184082, -- pos
+    radius=3, height=1.5, -- area
+        recipes = {
+	["Sell Mike Meth."] = {
+    description="*You walk in the door and see Mike Hawk hanging out. He says cash is on the table, you make the swap and walk out of there only to realize what just happened.*", -- action description
+    in_money=0, -- money taken per unit
+    out_money=500, -- money earned per unit
+    reagents={
+      ["meth"] = 1}, -- items taken per unit
+    products={ -- items given per unit
+    }
+	}
+	}
+  },
+  {
+    name="Tracy Trapton", -- menu name
+    -- permission = "harvest.water_bottle", -- you can add a permission
+    r=0,g=0,b=255, -- color
+    max_units=15,
+    units_per_minute=5,
+    x=1745.50549316406,y=3885.99584960938,z=34.6, -- pos
+    radius=4, height=1.5, -- area
+        recipes = {
+	["Sell Tracy Meth."] = {
+    description="Hey boy, you'd better not short me again. IMA CUT YA. *immedietly turns around* No wait! Comeback, I have the money! See? All good? Now go'on, get! *you hastily walk away while making sure not to turn your back on this psycho*", -- action description
+    in_money=0, -- money taken per unit
+    out_money=600, -- money earned per unit
+    reagents={
+      ["meth"] = 1}, -- items taken per unit
+    products={ -- items given per unit
+    }
+	}
+	}
+  },
+	{
+    name="Fishing", -- menu name
+    permissions = {"mission.delivery.fish"}, -- you can add permissions
+    r=0,g=125,b=255, -- color
+    max_units=100000,
+    units_per_minute=100000,
+    x=743.19586181641,y=3895.3967285156,z=30.5, 
+    radius=3, height=1.5, -- area
+    recipes = {
+      ["Catch some Catfish"] = { -- action name
+        description="Trying to catch some Catfish", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={ -- items given per unit
+          ["catfish"] = 1
+        }
+      },
+      ["Catch some Bass"] = { -- action name
+        description="Trying to catch some Bass", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={ -- items given per unit
+          ["bass"] = 1
+        }
+      }
+    }
+  },
+  {
+    name="Launder Money", -- menu name
+    --permissions = {"mission.delivery.fish"}, -- you can add permissions
+    r=0,g=125,b=0, -- color
+    max_units=700,
+    units_per_minute=100,
+    x=1990.5209960938,y=3792.3071289062,z=32.180820465088, 
+    radius=3, height=1.5, -- area
+    recipes = {
+      ["Launder Counterfeits"] = { -- action name
+        description="Swap out those fake 20's for a bit of a loss, but hey, free money", -- action description
+        in_money=0, -- money taken per unit
+        out_money=200, -- money earned per unit
+        reagents={
+          ["cfmoney"] = 1
+        }, -- items taken per unit
+        products={}
+      },
+      ["Launder Dirty Money"] = { -- action name
+        description="Exchange that tracable cash from stores and banks for a bit of a fee", -- action description
+        in_money=0, -- money taken per unit
+        out_money=150, -- money earned per unit
+        reagents={
+          ["dirty_money"] = 1
+        }, -- items taken per unit
+        products={
+          
+        }
+      }
+    }
+  },
+  -- {
+  --   name="Search Warrants", -- menu name
+  --   --permissions = {"mission.collect.trash"}, -- you can add permissions
+  --   r=0,g=125,b=255, -- color
+  --   max_units=1000,
+  --   units_per_minute=10,
+  --   x=142.52716064454,y=-742.22650146484,z=258.1519165039,
+  --   radius=3, height=1.5, -- area
+  --   recipes = {
+  --     ["Getting warrants"] = { -- action name
+  --       description="Get search warrants to search civilians cars and properties.", -- action description
+  --       in_money=0, -- money taken per unit
+  --       out_money=0, -- money earned per unit
+  --       reagents={}, -- items taken per unit
+  --       products={ -- items given per unit
+  --         ["police_report"] = 1
+  --       }
+  --     }
+  --   }
+  -- },
+  -- {
+  --   name="Vigilance", -- menu name
+  --   --permissions = {"mission.collect.trash"}, -- you can add permissions
+  --   r=0,g=125,b=255, -- color
+  --   max_units=1000,
+  --   units_per_minute=100,
+  --   x=148.2478942871,y=-743.54010009766,z=258.1519165039,
+  --   radius=3, height=1.5, -- area
+  --   recipes = {
+  --     ["Getting psyched!"] = { -- action name
+  --       description="Get some vigalance and then go out on patrol.", -- action description
+  --       in_money=0, -- money taken per unit
+  --       out_money=0, -- money earned per unit
+  --       reagents={}, -- items taken per unit
+  --       products={ -- items given per unit
+  --         ["vig"] = 1
+  --       }
+  --     }
+  --   }
+  -- },
+       {
+    name="Trash Collector", -- menu name
+    --permissions = {"mission.collect.trash"}, -- you can add permissions
+    r=0,g=125,b=255, -- color
+    max_units=100,
+    units_per_minute=10,
+    x=1931.4141845704,y=3719.2770996094,z=32.873291015625,
+    radius=3, height=1.5, -- area
+    recipes = {
+      ["Gather Trash"] = { -- action name
+        description="Gathering Trash...", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={ -- items given per unit
+          ["trash"] = 1
+        }
+      }
+    }
+  },
+  {
+    name="Trash Collector", -- menu name
+    --permissions = {"mission.collect.trash"}, -- you can add permissions
+    r=0,g=125,b=255, -- color
+    max_units=100,
+    units_per_minute=10,
+    x=1969.1379394532,y=3772.5346679688,z=32.19365310669,
+    radius=3, height=1.5, -- area
+    recipes = {
+      ["Gather Trash"] = { -- action name
+        description="Gathering Trash...", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={ -- items given per unit
+          ["trash"] = 1
+        }
+      }
+    }
+  },
+  {
+    name="Trash Collector", -- menu name
+    --permissions = {"mission.collect.trash"}, -- you can add permissions
+    r=0,g=125,b=255, -- color
+    max_units=100,
+    units_per_minute=10,
+    x=1929.5178222656,y=3924.650390625,z=32.515560150146,
+    radius=3, height=1.5, -- area
+    recipes = {
+      ["Gather Trash"] = { -- action name
+        description="Gathering Trash...", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={ -- items given per unit
+          ["trash"] = 1
+        }
+      }
+    }
+  },
+  {
+    name="Trash Collector", -- menu name
+    --permissions = {"mission.collect.trash"}, -- you can add permissions
+    r=0,g=125,b=255, -- color
+    max_units=100,
+    units_per_minute=10,
+    x=1802.223022461,y=3931.7829589844,z=33.84599685669,
+    radius=3, height=1.5, -- area
+    recipes = {
+      ["Gather Trash"] = { -- action name
+        description="Gathering Trash...", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={ -- items given per unit
+          ["trash"] = 1
+        }
+      }
+    }
+  },
+  {
+    name="Trash Collector", -- menu name
+    --permissions = {"mission.collect.trash"}, -- you can add permissions
+    r=0,g=125,b=255, -- color
+    max_units=100,
+    units_per_minute=10,
+    x=1433.1641845704,y=3619.0598144532,z=34.94062423706,
+    radius=3, height=1.5, -- area
+    recipes = {
+      ["Gather Trash"] = { -- action name
+        description="Gathering Trash...", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={ -- items given per unit
+          ["trash"] = 1
+        }
+      }
+    }
+  },
+  {
+    name="Trash Collector", -- menu name
+    --permissions = {"mission.collect.trash"}, -- you can add permissions
+    r=0,g=125,b=255, -- color
+    max_units=100,
+    units_per_minute=10,
+    x=1385.503540039,y=3600.2104492188,z=34.894943237304,
+    radius=3, height=1.5, -- area
+    recipes = {
+      ["Gather Trash"] = { -- action name
+        description="Gathering Trash...", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={ -- items given per unit
+          ["trash"] = 1
+        }
+      }
+    }
+  },
+  {
+    name="Trash Collector", -- menu name
+    --permissions = {"mission.collect.trash"}, -- you can add permissions
+    r=0,g=125,b=255, -- color
+    max_units=100,
+    units_per_minute=10,
+    x=1659.1501464844,y=4839.0209960938,z=42.038146972656,
+    radius=3, height=1.5, -- area
+    recipes = {
+      ["Gather Trash"] = { -- action name
+        description="Gathering Trash...", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={ -- items given per unit
+          ["trash"] = 1
+        }
+      }
+    }
+  },
+  {
+    name="Trash Collector", -- menu name
+    --permissions = {"mission.collect.trash"}, -- you can add permissions
+    r=0,g=125,b=255, -- color
+    max_units=100,
+    units_per_minute=10,
+    x=1659.0573730468,y=4869.3061523438,z=42.041786193848,
+    radius=3, height=1.5, -- area
+    recipes = {
+      ["Gather Trash"] = { -- action name
+        description="Gathering Trash...", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={ -- items given per unit
+          ["trash"] = 1
+        }
+      }
+    }
+  },
+  {
+    name="Trash Collector", -- menu name
+    --permissions = {"mission.collect.trash"}, -- you can add permissions
+    r=0,g=125,b=255, -- color
+    max_units=100,
+    units_per_minute=10,
+    x=1686.933959961,y=4971.4228515625,z=42.703937530518,
+    radius=3, height=1.5, -- area
+    recipes = {
+      ["Gather Trash"] = { -- action name
+        description="Gathering Trash...", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={ -- items given per unit
+          ["trash"] = 1
+        }
+      }
+    }
+  },
+  {
+    name="Trash Collector", -- menu name
+    --permissions = {"mission.collect.trash"}, -- you can add permissions
+    r=0,g=125,b=255, -- color
+    max_units=100,
+    units_per_minute=10,
+    x=1710.9158935546,y=4712.5131835938,z=42.343326568604,
+    radius=3, height=1.5, -- area
+    recipes = {
+      ["Gather Trash"] = { -- action name
+        description="Gathering Trash...", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={ -- items given per unit
+          ["trash"] = 1
+        }
+      }
+    }
+  },
+  {
+    name="Trash Collector", -- menu name
+    --permissions = {"mission.collect.trash"}, -- you can add permissions
+    r=0,g=125,b=255, -- color
+    max_units=100,
+    units_per_minute=10,
+    x=1713.9686279296,y=4630.7524414062,z=43.12102508545,
+    radius=3, height=1.5, -- area
+    recipes = {
+      ["Gather Trash"] = { -- action name
+        description="Gathering Trash...", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={ -- items given per unit
+          ["trash"] = 1
+        }
+      }
+    }
+  },
+  {
+    name="Trash Collector", -- menu name
+    --permissions = {"mission.collect.trash"}, -- you can add permissions
+    r=0,g=125,b=255, -- color
+    max_units=100,
+    units_per_minute=10,
+    x=2513.7026367188,y=4118.6240234375,z=38.501430511474,
+    radius=3, height=1.5, -- area
+    recipes = {
+      ["Gather Trash"] = { -- action name
+        description="Gathering Trash...", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={ -- items given per unit
+          ["trash"] = 1
+        }
+      }
+    }
+  },
+      {
+    name="Weapons Smuggler", -- menu name
+    --permissions = {"mission.weapons.smuggler"}, -- you can add permissions
+    r=0,g=125,b=255, -- color
+    max_units=1000,
+    units_per_minute=10,
+    x=-343.28500366211,y=6098.6586914063,z=31.327739715576,
+    radius=3, height=1.5, -- area
+    recipes = {
+      ["Gather AK's"] = { -- action name
+        description="Grabbing AK's", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={ -- items given per unit
+          ["gcargor"] = 1
+        }
+      },
+      ["Gather Shotguns"] = { -- action name
+        description="Grabbing Shotguns", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={ -- items given per unit
+          ["gcargos"] = 1
+        }
+      }
+    }
+  },
+      {
+    name="Medical Transport", -- menu name
+    permissions = {"mission.delivery.medical"}, -- you can add permissions
+    r=0,g=125,b=255, -- color
+    max_units=100000,
+    units_per_minute=100000,
+    x=2213.0520019531,y=5577.5981445313,z=53.795757293701,
+    radius=3, height=1.5, -- area
+    recipes = {
+      ["Gather Medical Weed"] = { -- action name
+        description="Gathering Medical Weed", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={ -- items given per unit
+          ["Medical Weed"] = 1
+        }
+      }
+	 }
+  },
+   {
+    name="UPS", -- menu name
+    permissions = {"harvest.parcels"}, -- you can add permissions
+    r=0,g=125,b=255, -- color
+    max_units=100000,
+    units_per_minute=100000,
+    x=1815.7768554688,y=3679.7758789062,z=34.276790618896,
+    radius=3, height=1.5, -- area
+    recipes = {
+      ["Gather Parcels"] = { -- action name
+        description="Gathering Parcels", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={ -- items given per unit
+          ["parcels"] = 1
+        }
+      }
+	 }
+  },
+  {
+    name="Cut Chicken", -- menu name
+    permissions = {"chip.job"}, -- you can add permissions
+    r=200,g=15,b=255, -- color
+    max_units=1000,
+    units_per_minute=10,
+    x=1982.789428711,y=3050.03125,z=47.215023040772,
+    radius=0.75, height=1.5, -- area
+    recipes = {
+      ["Cut Chicken"] = { -- action name
+        description="Cutting Chicken", -- action description
+        in_money=0, -- money taken per unit
+        out_money=5, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={ -- items given per unit
+          ["cut_chx"] = 1
+        }
+      }
+	 }
+  },
+  {
+    name="Roll Burrito", -- menu name
+    permissions = {"chip.job"}, -- you can add permissions
+    r=200,g=15,b=255, -- color
+    max_units=1000,
+    units_per_minute=10,
+    x=1985.4705810546,y=3049.2338867188,z=47.215057373046,
+    radius=1, height=1.5, -- area
+    recipes = {
+      ["Roll Burritos"] = { -- action name
+        description="Rolling Burritos", -- action description
+        in_money=0, -- money taken per unit
+        out_money=5, -- money earned per unit
+        reagents={
+          ["cut_chx"] = 1
+        }, -- items taken per unit
+        products={ -- items given per unit
+          ["burrito"] = 1
+        }
+      }
+	 }
+  },
+  {
+    name="Serve Customers", -- menu name
+    permissions = {"chip.job"}, -- you can add permissions
+    r=200,g=15,b=255, -- color
+    max_units=1000,
+    units_per_minute=10,
+    x=1983.2830810546,y=3053.7631835938,z=47.215126037598,
+    radius=1, height=1.5, -- area
+    recipes = {
+      ["Serve Customers"] = { -- action name
+        description="Serving customers..", -- action description
+        in_money=0, -- money taken per unit
+        out_money=5, -- money earned per unit
+        reagents={
+          ["burrito"] = 1
+        }, -- items taken per unit
+        products={ -- items given per unit
+          ["ddish"] = 1
+        }
+      }
+	 }
+  },
+  {
+    name="Wash Dishes", -- menu name
+    permissions = {"chip.job"}, -- you can add permissions
+    r=200,g=15,b=255, -- color
+    max_units=1000,
+    units_per_minute=10,
+    x=1981.4383544922,y=3051.1987304688,z=47.215003967286,
+    radius=0.75, height=1.5, -- area
+    recipes = {
+      ["Wash dishes"] = { -- action name
+        description="Washing dishes..", -- action description
+        in_money=0, -- money taken per unit
+        out_money=5, -- money earned per unit
+        reagents={
+          ["ddish"] = 1
+        }, -- items taken per unit
+        products={ -- items given per unit
+        }
+      }
+	 }
+  },
+  {
+    name="Clean Table", -- menu name
+    permissions = {"chip.job"}, -- you can add permissions
+    r=200,g=15,b=255, -- color
+    max_units=1000,
+    units_per_minute=10,
+    x=1989.2061767578,y=3047.1730957032,z=47.215087890625,
+    radius=1, height=1.5, -- area
+    recipes = {
+      ["Table Touch"] = { -- action name
+        description="Touching Table...", -- action description
+        in_money=0, -- money taken per unit
+        out_money=5, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={ -- items given per unit
+          ["c_trash"] = 1
+        }
+      }
+	 }
+  },
+  {
+    name="Clean Table", -- menu name
+    permissions = {"chip.job"}, -- you can add permissions
+    r=200,g=15,b=255, -- color
+    max_units=1000,
+    units_per_minute=10,
+    x=1990.2368164062,y=3049.5251464844,z=47.215145111084,
+    radius=1, height=1.5, -- area
+    recipes = {
+      ["Table Touch"] = { -- action name
+        description="Touching Table...", -- action description
+        in_money=0, -- money taken per unit
+        out_money=5, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={ -- items given per unit
+          ["c_trash"] = 1
+        }
+      }
+	 }
+  },
+  {
+    name="Toss Trash", -- menu name
+    permissions = {"chip.job"}, -- you can add permissions
+    r=200,g=15,b=255, -- color
+    max_units=1000,
+    units_per_minute=10,
+    x=1980.494140625,y=3047.474609375,z=47.215614318848,
+    radius=1, height=1.5, -- area
+    recipes = {
+      ["Throw out garbage"] = { -- action name
+        description="Tossing the trash..", -- action description
+        in_money=0, -- money taken per unit
+        out_money=5, -- money earned per unit
+        reagents={
+          ["c_trash"] = 1
+        }, -- items taken per unit
+        products={ -- items given per unit
+        }
+      }
+	 }
+  },
+ -- {
+    -- name="Santa's Workshop", -- menu name
+    -- permissions = {"harvest.presents"}, -- you can add permissions
+    -- r=0,g=125,b=255, -- color
+    -- max_units=100000,
+    -- units_per_minute=2,
+    -- x=2213.0520019531,y=5577.5981445313,z=53.795757293701, -- UPDATE THIS
+    -- radius=3, height=1.5, -- area
+    -- recipes = {
+      -- ["Gather Presents"] = { -- action name
+        -- description="Gathering Presents", -- action description
+        -- in_money=0, -- money taken per unit
+        -- out_money=0, -- money earned per unit
+        -- reagents={}, -- items taken per unit
+        -- products={ -- items given per unit
+          -- ["Presents"] = 1
+        -- }
+      -- }
+	 -- }
+  -- },
+  {
+    name="Water bottles/tacos tree", -- menu name
+    -- permissions = {"harvest.water_bottle_tacos"}, -- you can add permissions
+    r=0,g=125,b=255, -- color
+    max_units=100000,
+    units_per_minute=100000,
+    x=-1692.6646728516,y=-1086.3079833984,z=13.152559280396, -- pos
+    radius=5, height=1.5, -- area
+    recipes = {
+      ["Harvest water"] = { -- action name
+        description="Harvest some water bottles.", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={ -- items given per unit
+          ["water"] = 1
+        }
+      },
+      ["Harvest tacos"] = { -- action name
+        description="Harvest some tacos.", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={ -- items given per unit
+          ["tacos"] = 1
+        }
+      }
+    }
+    --, onstart = function(player,recipe) end, -- optional start callback
+    -- onstep = function(player,recipe) end, -- optional step callback
+    -- onstop = function(player,recipe) end -- optional stop callback
+  },
+  {
+    name="Body training", -- menu name
+    r=255,g=125,b=0, -- color
+    max_units=100000,
+    units_per_minute=1,
+    x=-1202.96252441406,y=-1566.14086914063,z=4.61040639877319,
+    radius=7.5, height=1.5, -- area
+    recipes = {
+      ["Strength"] = { -- action name
+        description="Increase your strength.", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={}, -- items given per unit
+        aptitudes={ -- optional
+          ["physical.strength"] = 0.2 -- "group.aptitude", give 1 exp per unit
+        }
+      }
+    }
+  },
+  {
+    name="Deep Web Search", -- menu name AdvDrugLabSandy
+	permissions = {"hacker.credit_cards"}, -- you can add permissions
+    r=255,g=125,b=0, -- color
+    max_units=100000,
+    units_per_minute=10,
+    x=1001.8706054688,y=-3194.9489746094,z=-38.993118286132,
+    radius=2, height=1.0, -- area
+    recipes = {
+      ["Hack accounts."] = { -- action name
+        description="Hacking credit cards.", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={
+		["credit"] = 1,
+		["dirty_money"] = 1
+		}, -- items given per unit
+        aptitudes={ -- optional
+          ["hacker.hacking"] = 0.2 -- "group.aptitude", give 1 exp per unit
+        }
+      }
+    }
+  },
+  {
+    name="Hack Ace Liquor's Systems", -- menu name
+	permissions = {"hacker.credit_cards"}, -- you can add permissions
+    r=255,g=125,b=0, -- color
+    max_units=100000,
+    units_per_minute=10,
+    x=1386.8602294922,y=3603.8388671875,z=34.89465713501,
+    radius=2, height=1.0, -- area
+    recipes = {
+      ["Hacking"] = { -- action name
+        description="Hacking credit cards.", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={
+		["credit"] = 1,
+		["dirty_money"] = 1
+		}, -- items given per unit
+        aptitudes={ -- optional
+          ["hacker.hacking"] = 0.2 -- "group.aptitude", give 1 exp per unit
+        }
+      }
+    }
+  },
+  {
+    name="Hack Grapeseed 24's Systems", -- menu name
+	permissions = {"hacker.credit_cards"}, -- you can add permissions
+    r=255,g=125,b=0, -- color
+    max_units=100000,
+    units_per_minute=10,
+    x=1714.0655517578,y=4933.1606445312,z=42.078525543212,
+    radius=2, height=1.0, -- area
+    recipes = {
+      ["Hacking"] = { -- action name
+        description="Hacking credit cards.", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={
+		["credit"] = 1,
+		["dirty_money"] = 1
+		}, -- items given per unit
+        aptitudes={ -- optional
+          ["hacker.hacking"] = 0.2 -- "group.aptitude", give 1 exp per unit
+        }
+      }
+    }
+  },
+  {
+    name="Deep Web Search", -- menu name BoathouseHacker
+	permissions = {"hacker.credit_cards"}, -- you can add permissions
+    r=255,g=125,b=0, -- color
+    max_units=100000,
+    units_per_minute=10,
+    x=1044.4677734375,y=-3194.7880859375,z=-38.158206939698,
+    radius=2, height=1.0, -- area
+    recipes = {
+      ["Hacking"] = { -- action name
+        description="Hacking credit cards.", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={
+		["credit"] = 1,
+		["dirty_money"] = 1
+		}, -- items given per unit
+        aptitudes={ -- optional
+          ["hacker.hacking"] = 0.2 -- "group.aptitude", give 1 exp per unit
+        }
+      }
+    }
+  },
+  {
+    name="Hack Sandy 24's Systems", -- menu name BoathouseHacker
+	permissions = {"hacker.credit_cards"}, -- you can add permissions
+    r=255,g=125,b=0, -- color
+    max_units=100000,
+    units_per_minute=10,
+    x=1954.0209960938,y=3754.7839355468,z=32.282558441162,
+    radius=2, height=1.0, -- area
+    recipes = {
+      ["Hacking"] = { -- action name
+        description="Hacking credit cards.", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={
+		["credit"] = 1,
+		["dirty_money"] = 1
+		}, -- items given per unit
+        aptitudes={ -- optional
+          ["hacker.hacking"] = 0.2 -- "group.aptitude", give 1 exp per unit
+        }
+      }
+    }
+  },
+  {
+    name="Forger", -- menu name
+	--permissions = {"fraud.credit_cards"}, -- you can add permissions
+    r=255,g=125,b=0, -- color
+    max_units=100000,
+    units_per_minute=100000,
+    x=1116.7139892578,y=-3195.5451660156,z=-40.40170288086,
+    radius=2, height=1.0, -- area
+    recipes = {
+      ["Nikko Belic"] = { -- action name
+        description="Forging fake ID's", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={
+		["credit"] = 1
+		}, -- items taken per unit
+        products={
+		["fake_id"] = 1
+		}, -- items given per unit
+        aptitudes={}
+    },
+    ["John McLuvin"] = { -- action name
+    description="Forging fake ID's", -- action description
+    in_money=0, -- money taken per unit
+    out_money=0, -- money earned per unit
+    reagents={
+["credit"] = 1
+}, -- items taken per unit
+    products={
+["fake_id2"] = 1
+}, -- items given per unit
+    aptitudes={}
+  },
+["Ben Dover"] = { -- action name
+description="Forging fake ID's", -- action description
+in_money=0, -- money taken per unit
+out_money=0, -- money earned per unit
+reagents={
+["credit"] = 1
+}, -- items taken per unit
+products={
+["fake_id3"] = 1
+}, -- items given per unit
+aptitudes={}
+}
+    }
+  },
+  -- {
+  --   name="License Centre", -- menu name
+  --   r=255,g=125,b=0, -- color
+  --   max_units=1,
+  --   units_per_minute=1,
+  --   x=1850.0382080078,y=3685.9929199218,z=34.267,        
+  --   radius=2, height=1.0, -- area
+  --   recipes = {
+  --     ["Driver"] = { -- action name
+  --      description="Buy a Driver License.", -- action description`
+  --       in_money=250, -- money taken per unit
+  --       out_money=0, -- money earned per unit
+  --       reagents={}, -- items taken per unit
+  --       products={
+	-- 	["driver"] = 1
+	-- 	}, -- items given per unit
+  --       aptitudes={} -- optional
+  --     },
+  --     ["Gun Liscense"] = { -- action name
+  --     description="Buy a Gun License.", -- action description`
+  --      in_money=1200, -- money taken per unit
+  --      out_money=0, -- money earned per unit
+  --      reagents={}, -- items taken per unit
+  --      products={
+  --  ["gunL"] = 1
+  --  }, -- items given per unit
+  --      aptitudes={} -- optional
+  --    },
+  --    ["Liquor Liscense"] = { -- action name
+  --    description="Buy a Liquor License.", -- action description`
+  --     in_money=1200, -- money taken per unit
+  --     out_money=0, -- money earned per unit
+  --     reagents={}, -- items taken per unit
+  --     products={
+  -- ["liqL"] = 1
+  -- }, -- items given per unit
+  --     aptitudes={} -- optional
+  --   }
+  --   }
+  -- },
+  -- {
+  --   name=" Gun License Centre", -- menu name
+  --   r=255,g=125,b=0, -- color
+  --   max_units=1,
+  --   units_per_minute=1,
+  --   x=1696.4553222656,y=3759.3132324218,z=34.705322265625,        
+  --   radius=5, height=1.0, -- area
+  --   recipes = {
+  --     ["Gun Liscense"] = { -- action name
+  --     description="Buy a Gun License.", -- action description`
+  --      in_money=1200, -- money taken per unit
+  --      out_money=0, -- money earned per unit
+  --      reagents={}, -- items taken per unit
+  --      products={
+  --  ["gunL"] = 1
+  --  }, -- items given per unit
+  --      aptitudes={} -- optional
+  --    },
+  --   }
+  -- },
+  {
+    name="Bank Driver Mission", -- menu name
+	permissions = {"bankdriver.money"}, -- you can add permissions
+    r=255,g=125,b=0, -- color
+    max_units=1,
+    units_per_minute=1,
+    x=236.87298583984,y=217.09535217285,z=106.28678894043,
+    radius=2, height=1.0, -- area
+    recipes = {
+      ["Bank Money"] = { -- action name
+       description="Get a money bank for mission.", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={
+		["bank_money"] = 500000
+		}, -- items given per unit
+        aptitudes={} -- optional
+      }
+    }
+  },
+  {
+    name="Sandy Shores Cargo", -- menu name
+    --permissions = {"mission.delivery.fish"}, -- you can add permissions
+    r=0,g=125,b=0, -- color
+    max_units=700,
+    units_per_minute=100,
+    x=1725.863647461,y=3289.6999511718,z=41.183368682862, 
+    radius=3, height=1.5, -- area
+    recipes = {
+      ["Pick Up"] = { -- action name
+        description="Pick Up Cargo destined for LSIA", -- action description
+        in_money=100, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={
+          ["cargo4l"] = 1
+        },
+      },
+      ["Drop Off"] = { -- action name
+        description="Drop of cargo for Sandy Shores", -- action description
+        in_money=0, -- money taken per unit
+        out_money=750, -- money earned per unit
+        reagents={
+          ["cargo4s"] = 1
+        }, -- items taken per unit
+        products={
+          
+        }
+      },
+      ["Pick Up Flight Records"] = { -- action name
+      description="Pick Up Flight Records", -- action description
+      in_money=0, -- money taken per unit
+      out_money=0, -- money earned per unit
+      reagents={}, -- items taken per unit
+      products={
+        ["frec"] = 1
+      },
+    }
+    }
+  },
+  {
+    name="Grapeseed Cargo Solutions", -- menu name
+    --permissions = {"mission.delivery.fish"}, -- you can add permissions
+    r=0,g=125,b=0, -- color
+    max_units=700,
+    units_per_minute=100,
+    x=2138.7075195312,y=4797.1298828125,z=41.131889343262, 
+    radius=3, height=1.5, -- area
+    recipes = {
+      ["Pick Up"] = { -- action name
+        description="Pick Up Cargo destined for Zancudo Airport", -- action description
+        in_money=100, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={
+          ["cargo4m"] = 1
+        },
+      },
+      ["Drop Off"] = { -- action name
+        description="Drop of cargo for Grapeseed", -- action description
+        in_money=0, -- money taken per unit
+        out_money=550, -- money earned per unit
+        reagents={
+          ["cargo4g"] = 1
+        }, -- items taken per unit
+        products={
+          
+        }
+      },
+      ["Pick Up Flight Records"] = { -- action name
+      description="Pick Up Flight Records", -- action description
+      in_money=0, -- money taken per unit
+      out_money=0, -- money earned per unit
+      reagents={}, -- items taken per unit
+      products={
+        ["frec"] = 1
+      },
+    }
+    }
+  },
+  {
+    name="LSIA Cargo Port", -- menu name
+    --permissions = {"mission.delivery.fish"}, -- you can add permissions
+    r=0,g=125,b=0, -- color
+    max_units=700,
+    units_per_minute=100,
+    x=-966.06817626954,y=-2983.3752441406,z=13.945079803466, 
+    radius=3, height=1.5, -- area
+    recipes = {
+      ["Pick Up"] = { -- action name
+        description="Pick Up Cargo destined for Grapeseed", -- action description
+        in_money=150, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={
+          ["cargo4g"] = 1
+        },
+      },
+      ["Drop Off"] = { -- action name
+        description="Drop of cargo for LSIA", -- action description
+        in_money=0, -- money taken per unit
+        out_money=850, -- money earned per unit
+        reagents={
+          ["cargo4l"] = 1
+        }, -- items taken per unit
+        products={
+          
+        }
+      },
+      ["Pick Up Flight Records"] = { -- action name
+      description="Pick Up Flight Records", -- action description
+      in_money=0, -- money taken per unit
+      out_money=0, -- money earned per unit
+      reagents={}, -- items taken per unit
+      products={
+        ["frec"] = 1
+      },
+    }
+    }
+  },
+  {
+    name="San Andreas Air Force Base and Airport", -- menu name
+    --permissions = {"mission.delivery.fish"}, -- you can add permissions
+    r=0,g=125,b=0, -- color
+    max_units=700,
+    units_per_minute=100,
+    x=-2266.1005859375,y=3224.9855957032,z=32.292381286622, 
+    radius=3, height=1.5, -- area
+    recipes = {
+      ["Pick Up"] = { -- action name
+        description="Pick Up Cargo destined for Sandy Shores", -- action description
+        in_money=250, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={}, -- items taken per unit
+        products={
+          ["cargo4s"] = 1
+        },
+      },
+      ["Drop Off"] = { -- action name
+        description="Drop of cargo for Zancudo", -- action description
+        in_money=0, -- money taken per unit
+        out_money=650, -- money earned per unit
+        reagents={
+          ["cargo4m"] = 1
+        }, -- items taken per unit
+        products={
+          
+        }
+      },
+      ["Pick Up Flight Records"] = { -- action name
+      description="Pick Up Flight Records", -- action description
+      in_money=0, -- money taken per unit
+      out_money=0, -- money earned per unit
+      reagents={}, -- items taken per unit
+      products={
+        ["frec"] = 1
+      },
+    }
+    }
+  },
+  {
+    name="Gun Building", -- menu name
+    --permissions = {"build.gun"}, -- you can add permissions
+    r=0,g=2,b=200, -- color
+    max_units=15,
+    units_per_minute=3,
+    x=1014.4733276368,y=-3157.5915527344,z=-38.90599822998, -- pos
+    radius=1.0, height=1.5, -- area
+    recipes = {
+      ["Build AP Pistol"] = { -- action name
+        description="Build an AP Pistol.", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={
+      ["upperR"] = 1,
+      ["lowerR"] = 1,
+      ["pistol_parts"] = 1
+		}, -- items taken per unit
+        products={ -- items given per unit
+          ["wbody|WEAPON_APPISTOL"] = 1
+        }
+      },
+      ["Build Bullpup Shotgun"] = { -- action name
+        description="Build shotgun.", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={
+      ["shotgun_parts"] = 1,
+      ["upperR"] = 1,
+      ["lowerR"] = 1
+		}, -- items taken per unit
+        products={ -- items given per unit
+          ["wbody|WEAPON_BULLPUPSHOTGUN"] = 1
+        }
+      },
+      ["Build AK47"] = { -- action name
+      description="Build AK.", -- action description
+      in_money=0, -- money taken per unit
+      out_money=0, -- money earned per unit
+      reagents={
+    ["stock"] = 1,
+    ["upperR"] = 1,
+    ["lowerR"] = 1,
+    ["barrel"] = 1
+  }, -- items taken per unit
+      products={ -- items given per unit
+        ["wbody|WEAPON_ASSAULTRIFLE"] = 1
+      }
+    },
+      ["Build SMG"] = { -- action name
+        description="Build a submachinegun.", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={
+      ["smg_parts"] = 1,
+      ["lowerR"] = 1,
+      ["stock"] = 1
+		}, -- items taken per unit
+        products={ -- items given per unit
+          ["wbody|WEAPON_SMG"] = 1
+        }
+      }
+    }
+    },
+    {
+      name="Gun Part Crafting", -- menu name
+      --permissions = {"build.gun"}, -- you can add permissions
+      r=0,g=2,b=200, -- color
+      max_units=10,
+      units_per_minute=3,
+      x=1557.0314941406,y=3520.2038574218,z=35.934482574462, -- pos
+      radius=4.0, height=1.5, -- area
+      recipes = {
+        ["Craft Pistol Parts"] = { -- action name
+          description="Craft Pistol Parts", -- action description
+          in_money=0, -- money taken per unit
+          out_money=0, -- money earned per unit
+          reagents={
+            ["steel"] = 1
+          }, -- items taken per unit
+          products={ -- items given per unit
+            ["pistol_parts"] = 1
+          }
+        },
+        ["Craft Shotgun Parts"] = { -- action name
+          description="Build shotgun parts.", -- action description
+          in_money=0, -- money taken per unit
+          out_money=0, -- money earned per unit
+          reagents={
+        ["steel"] = 1,
+        ["bolts"] = 1
+      }, -- items taken per unit
+          products={ -- items given per unit
+            ["shotgun_parts"] = 1
+          }
+        },
+        ["Craft Upper Receiver"] = { -- action name
+        description="Craft an Upper Receiver.", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={
+      ["steel"] = 1,
+      ["bolts"] = 1
+    }, -- items taken per unit
+        products={ -- items given per unit
+          ["upperR"] = 1
+        }
+      },
+      ["Craft SMG Parts"] = { -- action name
+      description="Craft SMG parts.", -- action description
+      in_money=0, -- money taken per unit
+      out_money=0, -- money earned per unit
+      reagents={
+    ["steel"] = 1,
+    ["bolts"] = 1
+  }, -- items taken per unit
+      products={ -- items given per unit
+        ["smg_parts"] = 1
+      }
+    },
+    ["Craft Gun Stock"] = { -- action name
+    description="Craft a gun stock.", -- action description
+    in_money=0, -- money taken per unit
+    out_money=0, -- money earned per unit
+    reagents={
+  ["wood"] = 1,
+  ["bolts"] = 1
+}, -- items taken per unit
+    products={ -- items given per unit
+      ["stock"] = 1
+    },
+  },
+        ["Craft Lower Receiver"] = { -- action name
+          description="Craft a Lower Receiver", -- action description
+          in_money=0, -- money taken per unit
+          out_money=0, -- money earned per unit
+          reagents={
+        ["steel"] = 1,
+        ["bolts"] = 1
+      }, -- items taken per unit
+          products={ -- items given per unit
+            ["lowerR"] = 1
+          },
+        }
+      }
+    },
+    { --2681.9306640625,2796.8828125,39.6811180114746
+    name="SSQETF Processing Plant", -- menu name
+    --permissions = {"mission.delivery.fish"}, -- you can add permissions
+    r=0,g=125,b=0, -- color
+    max_units=200,
+    units_per_minute=10,
+    x=2681.9306640625,y=2796.8828125,z=39.6811180114746, 
+    radius=3, height=3, -- area
+    recipes = {
+      ["Smelt Copper"] = { -- action name
+        description="Create copper, which can be sold or used for crafting.", -- action description
+        in_money=0, -- money taken per unit
+        out_money=200, -- money earned per unit
+        reagents={
+          ["rawminerals"] = 1
+        }, -- items taken per unit
+        products={
+          ["copper"] = 1
+        },
+      },
+      ["Smelt Steel"] = { -- action name
+        description="Create Steel, which can be sold or used for crafting.", -- action description
+        in_money=0, -- money taken per unit
+        out_money=150, -- money earned per unit
+        reagents={
+          ["rawminerals"] = 1
+        }, -- items taken per unit
+        products={
+          ["steel"] = 1
+        },
+      }
+    }
+  },-- 2703.1235351562,3455.7722167968,55.616416931152
+  {
+    name="Ammo Crafting", -- menu name
+    --permissions = {"build.gun"}, -- you can add permissions
+    r=0,g=2,b=200, -- color
+    max_units=5,
+    units_per_minute=3,
+    x=1009.170715332,y=-3154.8044433594,z=-38.907451629638, -- pos
+    radius=2.0, height=1.5, -- area
+    recipes = {
+      ["Craft Pistol Ammo"] = { -- action name
+        description="Craft AP Pistol Ammo", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={
+      ["copper"] = 2,
+		}, -- items taken per unit
+        products={ -- items given per unit
+          ["wammo|WEAPON_APPISTOL"] = 10
+        }
+      },
+      ["Craft Shotgun Ammo"] = { -- action name
+        description="Craft bullpup shotgun ammo.", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={
+      ["copper"] = 3
+		}, -- items taken per unit
+        products={ -- items given per unit
+          ["wammo|WEAPON_BULLPUPSHOTGUN"] = 10
+        }
+      },
+      ["Craft Rifle Ammo"] = { -- action name
+      description="Craft AK rounds.", -- action description
+      in_money=0, -- money taken per unit
+      out_money=0, -- money earned per unit
+      reagents={
+    ["copper"] = 2,
+  }, -- items taken per unit
+      products={ -- items given per unit
+        ["wammo|WEAPON_ASSAULTRIFLE"] = 10
+      }
+    },
+      ["Craft SMG Ammo"] = { -- action name
+        description="Craft SMG ammo.", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={
+      ["copper"] = 2,
+		}, -- items taken per unit
+        products={ -- items given per unit
+          ["wammo|WEAPON_SMG"] = 10
+        }
+      }
+    }
+    },
+  --   {
+  --     name="SS Illegal Gun Export", -- menu name
+  --     r=255,g=125,b=0, -- color
+  --     max_units=50,
+  --     units_per_minute=5,
+  --     x=1733.2353515625,y=3328.6640625,z=41.223510742188,        
+  --     radius=4, height=1.0, -- area
+  --     recipes = {
+  --       ["Sell Pistols"] = { -- action name
+  --        description="Sell your box of pistols.", -- action description`
+  --         in_money=0, -- money taken per unit
+  --         out_money=950, -- money earned per unit
+  --         reagents={
+  --           ["gcargop"] = 1
+  --         }, -- items taken per unit
+  --         products={
+  --     }, -- items given per unit
+  --         aptitudes={} -- optional
+  --       },
+  --       ["Sell SMGs"] = { -- action name
+  --       description="Sell your box of SMGs.", -- action description`
+  --        in_money=0, -- money taken per unit
+  --        out_money=1050, -- money earned per unit
+  --        reagents={
+  --          ["gcargosmg"] = 1
+  --        }, -- items taken per unit
+  --        products={
+  --    }, -- items given per unit
+  --        aptitudes={} -- optional
+  --      },
+  --       ["Sell Rifles"] = { -- action name
+  --       description="Sell your box of Rifles.", -- action description`
+  --        in_money=0, -- money taken per unit
+  --        out_money=1150, -- money earned per unit
+  --        reagents={
+  --          ["gcargor"] = 1
+  --        }, -- items taken per unit
+  --        products={
+  --    }, -- items given per unit
+  --        aptitudes={} -- optional
+  --      },
+  --    ["Sell Shotguns"] = { -- action name
+  --    description="Sell box of Shotguns.", -- action description`
+  --     in_money=0, -- money taken per unit
+  --     out_money=1300, -- money earned per unit
+  --     reagents={
+  --       ["gcargos"] = 1
+  --     }, -- items taken per unit
+  --     products={
+  -- }, -- items given per unit
+  --     aptitudes={} -- optional
+  --   },
+  --     }
+  --   },
+    {
+      name="Gun Packaging", -- menu name
+      --permissions = {"build.gun"}, -- you can add permissions
+      r=0,g=2,b=200, -- color
+      max_units=5,
+      units_per_minute=3,
+      x=1013.9324951172,y=-3161.0578613282,z=-38.907764434814, -- pos
+      radius=1.0, height=1.5, -- area
+      recipes = {
+        ["Pack Up Pistols"] = { -- action name
+          description="Put 3 Pistols in a box.", -- action description
+          in_money=0, -- money taken per unit
+          out_money=0, -- money earned per unit
+          reagents={
+        ["wbody|WEAPON_APPISTOL"] = 3,
+      }, -- items taken per unit
+          products={ -- items given per unit
+            ["gcargop"] = 1
+          }
+        },
+        ["Pack Up Shotguns"] = { -- action name
+          description="Put 3 Shotguns in a box.", -- action description
+          in_money=0, -- money taken per unit
+          out_money=0, -- money earned per unit
+          reagents={
+        ["wbody|WEAPON_BULLPUPSHOTGUN"] = 3,
+      }, -- items taken per unit
+          products={ -- items given per unit
+            ["gcargos"] = 1
+          }
+        },
+        ["Pack Up AK47"] = { -- action name
+        description="Put 3 AKs in a box.", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={
+      ["wbody|WEAPON_ASSAULTRIFLE"] = 3,
+    }, -- items taken per unit
+        products={ -- items given per unit
+          ["gcargor"] = 1
+        }
+      },
+        ["Pack Up SMG"] = { -- action name
+          description="Put 3 SMGs in a Box.", -- action description
+          in_money=0, -- money taken per unit
+          out_money=0, -- money earned per unit
+          reagents={
+            ["wbody|WEAPON_SMG"] = 3
+      }, -- items taken per unit
+          products={ -- items given per unit
+            ["gcargosmg"] = 1
+          }
+        },
+        ["Unpack Pistols"] = { -- action name
+        description="Open Gun Crate", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={
+      ["gcargop"] = 1,
+    }, -- items taken per unit
+        products={ -- items given per unit
+          ["wbody|WEAPON_APPISTOL"] = 3
+        }
+      },
+      ["Unpack Shotguns"] = { -- action name
+        description="Open Gun Crate.", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={
+      ["gcargos"] = 1,
+    }, -- items taken per unit
+        products={ -- items given per unit
+          ["wbody|WEAPON_BULLPUPSHOTGUN"] = 3
+        }
+      },
+      ["Unpack AK47s"] = { -- action name
+      description="Open Gun Crate", -- action description
+      in_money=0, -- money taken per unit
+      out_money=0, -- money earned per unit
+      reagents={
+    ["gcargor"] = 1,
+  }, -- items taken per unit
+      products={ -- items given per unit
+        ["wbody|WEAPON_ASSAULTRIFLE"] = 3
+      }
+    },
+      ["Unpack SMGs"] = { -- action name
+        description="Open Gun Crate.", -- action description
+        in_money=0, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={
+          ["gcargosmg"] = 1
+    }, -- items taken per unit
+        products={ -- items given per unit
+          ["wbody|WEAPON_SMG"] = 3
+        }
+      }
+      }
+      },
+ -- {
+   -- name="Robbery Bank", -- menu name
+   -- r=255,g=125,b=0, -- color
+   -- max_units=600,
+   -- units_per_minute=1,
+   -- x=265.94982910156,y=213.54983520508,z=101.68338775635,
+   -- radius=2, height=1.0, -- area
+   -- recipes = {
+     -- ["Bank Money"] = { -- action name
+      -- description="get the money.", -- action description
+       -- in_money=0, -- money taken per unit
+       -- out_money=0, -- money earned per unit
+      --  reagents={}, -- items taken per unit
+      --  products={
+	--	["dirty_money"] = 0
+	--	}, -- items given per unit
+       -- aptitudes={} -- optional
+     -- }
+   -- }
+ -- },
+  {
+    name="Drug Lab", -- menu name
+	--permissions = {"harvest.weed"}, -- job drug dealer required to use
+    r=0,g=255,b=0, -- color
+    max_units=1000,
+    units_per_minute=100,
+    x=-77.722381591797,y=6223.626953125,z=31.089864730835, -- pos (needed for public use lab tools)
+    radius=1.1, height=1.5, -- area
+    recipes = {
+      ["cocaine"] = { -- action name
+        description="Dry Coca Paste", -- action description
+        in_money=100, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={ -- items taken per unit
+          ["cocapaste"] = 1
+        },
+        products={
+      ["coke"] = 1
+        },
+        aptitudes={ -- optional
+          ["laboratory.cocaine"] = 1.5, -- "group.aptitude", give 1 exp per unit
+          ["science.chemicals"] = 3
+        }
+      },
+      ["weed"] = { -- action name
+        description="Dry weed", -- action description
+        in_money=100, -- money taken per unit
+        out_money=0, -- money earned per unit
+        reagents={ -- items taken per unit
+          ["Fweed"] = 1
+        },
+        products={ -- items given per unit
+          ["Cweed"] = 1
+        },
+        aptitudes={ -- optional
+          ["laboratory.weed"] = 1.5, -- "group.aptitude", give 1 exp per unit
+          ["science.plant"] = 3
+        }
+      },
+      ["lsd"] = { -- action name
+          description="Synthesize LSD", -- action description
+          in_money=200, -- money taken per unit
+          out_money=0, -- money earned per unit
+          reagents={ -- items taken per unit
+            ["harness"] = 1
+          },
+          products={ -- items given per unit
+            ["lsd"] = 3
+          },
+          aptitudes={ -- optional
+            ["laboratory.lsd"] = 1.5, -- "group.aptitude", give 1 exp per unit
+            ["science.chemicals"] = 3
+          }
+        }
